@@ -1,8 +1,8 @@
-import Head from "next/head";
-import { useRouter } from "next/router";
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 const pages: { [key: string]: string } = {
-  "/": "Home",
+  '/': 'Home',
 };
 export default function Helmet() {
   const router = useRouter();
